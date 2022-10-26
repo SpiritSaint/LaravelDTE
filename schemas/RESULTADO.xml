@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd" version="1.0">
+  <SetDTE ID="SetDoc">
+    <Caratula version="1.0">
+      <RutEmisor>97975000-5</RutEmisor>
+      <RutReceptor>77777777-7</RutReceptor>
+      <FchResol>2003-10-13</FchResol>
+      <NroResol>0</NroResol>
+      <TmstFirmaEnv>2003-10-13T09:33:22</TmstFirmaEnv>
+      <SubTotDTE>
+        <TpoDTE>33</TpoDTE>
+        <NroDTE>1</NroDTE>
+      </SubTotDTE>
+    </Caratula>
+    <DTE version="1.0">
+      <Documento ID="F60T33">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>60</Folio>
+            <FchEmis>2003-10-13</FchEmis>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>97975000-5</RUTEmisor>
+            <RznSoc>RUT DE PRUEBA</RznSoc>
+            <GiroEmis>Insumos de Computacion</GiroEmis>
+            <Acteco>31341</Acteco>
+            <CdgSIISucur>1234</CdgSIISucur>
+            <DirOrigen>Teatinos 120, Piso 4</DirOrigen>
+            <CmnaOrigen>Santiago</CmnaOrigen>
+            <CiudadOrigen>Santiago</CiudadOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>77777777-7</RUTRecep>
+            <RznSocRecep>EMPRESA  LTDA</RznSocRecep>
+            <GiroRecep>COMPUTACION</GiroRecep>
+            <DirRecep>SAN DIEGO 2222</DirRecep>
+            <CmnaRecep>LA FLORIDA</CmnaRecep>
+            <CiudadRecep>SANTIAGO</CiudadRecep>
+          </Receptor>
+          <Totales>
+            <MntNeto>100000</MntNeto>
+            <TasaIVA>19</TasaIVA>
+            <IVA>19000</IVA>
+            <MntTotal>119000</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <NmbItem>Parlantes Multimedia 180W.</NmbItem>
+          <DscItem>Buena descripción del producto</DscItem>
+          <QtyItem>2</QtyItem>
+          <PrcItem>50000</PrcItem>
+          <MontoItem>100000</MontoItem>
+        </Detalle>
+      </Documento>
+    </DTE>
+  </SetDTE>
+</EnvioDTE>

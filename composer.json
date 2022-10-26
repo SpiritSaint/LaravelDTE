@@ -1,0 +1,43 @@
+{
+  "name": "spiritsaint/laravel-dte",
+  "description": "Paquete de integración entre Laravel y Servicios Impuestos Internos",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SpiritSaint\\LaravelDTE\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SpiritSaint\\LaravelDTE\\Tests\\": "tests",
+      "SpiritSaint\\LaravelDTE\\Database\\Factories\\": "database/factories"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ian Torres",
+      "email": "iantorres@outlook.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SpiritSaint\\LaravelDTE\\ServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.1",
+    "illuminate/routing": "^9",
+    "illuminate/session": "^9",
+    "illuminate/support": "^9",
+    "inspirum/xml": "^2.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9",
+    "orchestra/testbench": "^7.9"
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
